@@ -1,0 +1,33 @@
+{
+  "name": "noa-talk",
+  "version": "0.0.1",
+  "description": "'Slides' for a talk on voxels and noa.",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy index.js:bundle.js 8080 --live --open"
+  },
+  "author": "Andy Hall",
+  "keywords": [
+    "noa",
+    "voxel",
+    "game",
+    "engine"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gl-vec3": "^1.0.3",
+    "ndarray-hash": "0.0.0",
+    "ndhash": "^0.1.0",
+    "noa-engine": "andyhall/noa#915709308456cb15a71c1787e382bb420020ec1e",
+    "pleasejs": "^0.4.2",
+    "simplex-noise": "^2.1.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.2",
+    "browserify": "^8.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyhall/noa-talk"
+  }
+}
