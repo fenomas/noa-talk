@@ -5,6 +5,7 @@
 Only tested in Chrome - expect issues elsewhere.
 
 To run locally:
+
     git clone [this repo]
     cd noa-talk
     npm install
