@@ -17,11 +17,11 @@ var opts = {
   inverseY: true,
   blockTestDistance: 20,
   // world data
-  chunkSize: 32,
+  chunkSize: 24,
   generator: worldgen.generator, // pass in a more interesting generator function
   texturePath: 'textures/',
-  chunkAddDistance: 3,
-  chunkRemoveDistance: 5,
+  chunkAddDistance: 2,
+  chunkRemoveDistance: 4,
   // player
   playerStart: [1.5,15,1.5],
   playerHeight: 1.4,
